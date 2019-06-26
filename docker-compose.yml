@@ -1,0 +1,10 @@
+version: "3.6"
+services:
+  jupyter:
+    build: ./jupyter/
+    volumes:
+      - ./notebooks:/home/jovyan/notebooks
+      - ./datasets:/home/jovyan/datasets
+    ports:
+      - 8888:8888
+    container_name:   jupyter_container
