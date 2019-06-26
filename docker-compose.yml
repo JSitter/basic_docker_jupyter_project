@@ -7,4 +7,5 @@ services:
       - ./datasets:/home/jovyan/datasets
     ports:
       - 8888:8888
-    container_name:   jupyter_container
+    command: jupyter lab
+    container_name: jupyter_container
