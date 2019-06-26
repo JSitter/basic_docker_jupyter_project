@@ -38,7 +38,7 @@ In order to connect to the notebook you'll need to supply the token that is give
 
 In order for your work to be saved, your notebooks must exist in the notebooks directory. This directory is shared with the host system which means that when you stop, or rebuild the Docker container all your work will be saved. If you put your notebooks elsewhere there is no guarantee you'll be able to access your work later.
 
-## Using Dataset
+## Using Datasets
 
 The datasets folder exists in its own separate Docker volume. Any dataset that you add to this folder will be available to your notebooks in the dataset folder.
 
